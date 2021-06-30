@@ -34,6 +34,7 @@ cellranger-atac mkfastq \
 ```
 
 **4. Check output file.**
+
 To "/outs" folder.
 ```
 cd /data/bioinformatics/projects/scATAC/tiny-bcl/outs/
