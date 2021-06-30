@@ -37,5 +37,3 @@ cellranger-atac mkfastq \
 ```
 cd /data/bioinformatics/projects/scATAC/tiny-bcl/outs/
 ```
-
-
