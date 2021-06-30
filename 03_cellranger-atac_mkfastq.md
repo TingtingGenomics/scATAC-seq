@@ -25,7 +25,7 @@ module load cellranger-atac/2.0.0
 module load bcl2fastq2/default # this version works
 ```
 
-3. 
+3. Run mkfastq on sample file.
 ```
 cellranger-atac mkfastq \
 --id=tiny-bcl \
