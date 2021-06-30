@@ -27,4 +27,7 @@ module load bcl2fastq2/default # this version works
 
 3. 
 ```
-cellranger-atac mkfastq --id=tiny-bcl --run=/data/bioinformatics/projects/scATAC/cellranger-atac-tiny-bcl-1.0.0 --csv=cellranger-atac-tiny-bcl-simple-1.0.0.csv
+cellranger-atac mkfastq \
+--id=tiny-bcl \
+--run=/data/bioinformatics/projects/scATAC/cellranger-atac-tiny-bcl-1.0.0 \
+--csv=cellranger-atac-tiny-bcl-simple-1.0.0.csv
