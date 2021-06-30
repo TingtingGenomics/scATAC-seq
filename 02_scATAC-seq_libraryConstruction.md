@@ -12,7 +12,7 @@ This step synthesizes top single strands.
 
 ***
 **Notes:**
-scATAC-seq sequencing constructs don't have UMI sequence because it's a DNA sequencing methods, not like RNA sequencing that contain many RNA transcripts to differentiate.![image](https://user-images.githubusercontent.com/31963567/124014533-a4aa6000-d9b1-11eb-83cf-0d274d784cea.png)
+scATAC-seq sequencing constructs don't have UMI sequence because it's a DNA sequencing methods, not like RNA sequencing that contain many RNA transcripts to differentiate.
 ***
 
 ## Library Construction
