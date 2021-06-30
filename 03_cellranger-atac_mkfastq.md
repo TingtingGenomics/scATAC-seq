@@ -14,18 +14,18 @@
 - Download the Illumina® Experiment Manager sample sheet: cellranger-atac-tiny-bcl-samplesheet-1.0.0.csv.
 ***
 
-1. Login to BWH supercomputing system ERISONE, which has cellranger-atac installed under request. Locate to the working dir. 
+**1. Login to BWH supercomputing system ERISONE, which has cellranger-atac installed under request. Locate to the working dir.** 
 ```
 cd /data/bioinformatics/projects/scATAC
 ```
 
-2. Load modules required for scATAC-seq analysis. 
+**2. Load modules required for scATAC-seq analysis.**
 ```
 module load cellranger-atac/2.0.0
 module load bcl2fastq2/default # this version works
 ```
 
-3. Run mkfastq on sample file.
+**3. Run mkfastq on sample file.**
 ```
 cellranger-atac mkfastq \
 --id=tiny-bcl \
@@ -33,7 +33,7 @@ cellranger-atac mkfastq \
 --csv=cellranger-atac-tiny-bcl-simple-1.0.0.csv
 ```
 
-4. Check output file.
+**4. Check output file.**
 ```
 cd /data/bioinformatics/projects/scATAC/tiny-bcl/outs/
 ```
