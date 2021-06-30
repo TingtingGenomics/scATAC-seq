@@ -16,6 +16,7 @@ scATAC-seq sequencing constructs don't have UMI sequence because it's a DNA sequ
 ***
 
 ## Main step II: library construction
+P7 and a sample index are added during library construction via PCR. The final libraries contain the P5 and P7 sequences used in Illumina® bridge amplification.
 <p align="center">
 <img width="50%" height="50%" src="library_construction.png">
 </p>
