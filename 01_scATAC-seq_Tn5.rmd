@@ -1,0 +1,12 @@
+# Mechanism of Tn5 in scATAC-seq
+Assay for Transposase-Accessible Chromatin Sequencing (ATAC-Seq) employs a hyperactive form of Tn5 transposase to identify regions of open chromatin, which are important for global epigenetic control of gene expression. Tn5 simultaneously cleaves and adds adapters to nucleosome-free regions of DNA, priming them for sequencing.
+
+ 
+https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-019-0105-9
+
+Q: could the cutting site of Tn5 span more than 0 nucleosome?
+ 
+ 
+Each transposition creates a 9bp duplication, this is the reason that the genomic position of the sequenced fragments was adjusted 5 or 4bp to get the center point of the cutting site.
+https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/output/fragments
+“The start of the interval is moved forward by 4bp from a left-most alignment position and backward 5bp from the right-most alignment position. The transposase cuts the two DNA strands with a 9bp overhang, and adjusted positions represent the center point between these cuts; this position is recorded as a cut site that represents a chromatin accessibility event.”
