@@ -2,7 +2,7 @@
 
 ## Main step I: barcoding
 
-[citation:Chromium Next GEM Single Cell ATAC Reagent Kits v1.1, 10X genomics, users guide.](https://assets.ctfassets.net/an68im79xiti/2NEwsG0Yu3RuxvtQiWXZo3/1e939394fa43a4f0bd88d79383833b16/CG000209_Chromium_NextGEM_SingleCell_ATAC_ReagentKits_v1.1_UserGuide_RevE.pdf)
+[Chromium Next GEM Single Cell ATAC Reagent Kits v1.1, 10X genomics, users guide.](https://assets.ctfassets.net/an68im79xiti/2NEwsG0Yu3RuxvtQiWXZo3/1e939394fa43a4f0bd88d79383833b16/CG000209_Chromium_NextGEM_SingleCell_ATAC_ReagentKits_v1.1_UserGuide_RevE.pdf)
 
 This step synthesizes top single strands.
 
