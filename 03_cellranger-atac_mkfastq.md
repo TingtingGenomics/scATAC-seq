@@ -31,3 +31,11 @@ cellranger-atac mkfastq \
 --id=tiny-bcl \
 --run=/data/bioinformatics/projects/scATAC/cellranger-atac-tiny-bcl-1.0.0 \
 --csv=cellranger-atac-tiny-bcl-simple-1.0.0.csv
+```
+
+4. Check output file.
+```
+cd /data/bioinformatics/projects/scATAC/tiny-bcl/outs/
+```
+
+
