@@ -37,3 +37,26 @@ cellranger-atac mkfastq \
 ```
 cd /data/bioinformatics/projects/scATAC/tiny-bcl/outs/
 ```
+```
+[tz949@eris1n2 outs]$ ls -hl fastq_path/
+total 520M
+drwxrwx---. 3 tz949 tz949 4.0K Jun 23 10:36 HJN3KBCX2
+drwxrwx---. 3 tz949 tz949 4.0K Jun 23 10:36 Reports
+drwxrwx---. 2 tz949 tz949 4.0K Jun 23 13:11 Stats
+-rw-rw----. 1 tz949 tz949  40M Jun 23 10:36 Undetermined_S0_L001_I1_001.fastq.gz
+-rw-rw----. 1 tz949 tz949 150M Jun 23 10:36 Undetermined_S0_L001_R1_001.fastq.gz
+-rw-rw----. 1 tz949 tz949  76M Jun 23 10:36 Undetermined_S0_L001_R2_001.fastq.gz
+-rw-rw----. 1 tz949 tz949 151M Jun 23 10:36 Undetermined_S0_L001_R3_001.fastq.gz
+```
+
+```
+[tz949@eris1n2 fastq_path]$ tree HJN3KBCX2/
+HJN3KBCX2/
+└── test_sample
+    ├── test_sample_S1_L001_I1_001.fastq.gz
+    ├── test_sample_S1_L001_R1_001.fastq.gz
+    ├── test_sample_S1_L001_R2_001.fastq.gz
+    └── test_sample_S1_L001_R3_001.fastq.gz
+
+1 directory, 4 files
+```
