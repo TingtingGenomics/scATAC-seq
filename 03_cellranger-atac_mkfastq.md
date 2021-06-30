@@ -34,9 +34,11 @@ cellranger-atac mkfastq \
 ```
 
 **4. Check output file.**
+To "/outs" folder.
 ```
 cd /data/bioinformatics/projects/scATAC/tiny-bcl/outs/
 ```
+The converted fastq file could be found in a file named by gel code, e.g. HJN3KBCX2. Note that the undetermined fastq file are stored in fastq_path folder.
 ```
 [tz949@eris1n2 outs]$ ls -hl fastq_path/
 total 520M
@@ -48,7 +50,7 @@ drwxrwx---. 2 tz949 tz949 4.0K Jun 23 13:11 Stats
 -rw-rw----. 1 tz949 tz949  76M Jun 23 10:36 Undetermined_S0_L001_R2_001.fastq.gz
 -rw-rw----. 1 tz949 tz949 151M Jun 23 10:36 Undetermined_S0_L001_R3_001.fastq.gz
 ```
-
+Look into fastq file folder.
 ```
 [tz949@eris1n2 fastq_path]$ tree HJN3KBCX2/
 HJN3KBCX2/
