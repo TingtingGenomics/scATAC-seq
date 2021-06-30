@@ -16,6 +16,11 @@ scATAC-seq sequencing constructs don't have UMI sequence because it's a DNA sequ
 ***
 
 ## Main step II: library construction
+<p align="center">
+<img width="50%" height="50%" src="library_construction.png">
+</p>
 
 ## Main step III: sequencing
-
+<p align="center">
+<img width="50%" height="50%" src="library_sequencing.png">
+</p>
