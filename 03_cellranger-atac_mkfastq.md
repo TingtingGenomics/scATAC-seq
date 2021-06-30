@@ -1,7 +1,7 @@
 # <h1 align="center">Cellranger-atac convert bcl file to fastq file</h1>
 
 # Interpretation of bcl to fastq algorithm
-[my previous notes](https://github.com/TingtingSsl2/scRNA-seq_LearningPage/blob/main/03_Convert%20bcl%20to%20fastq.md)
+[My previous notes](https://github.com/TingtingSsl2/scRNA-seq_LearningPage/blob/main/03_Convert%20bcl%20to%20fastq.md)
 
 # Practice: convert bcl to fastq
 [10X genomics](https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/using/mkfastq)
