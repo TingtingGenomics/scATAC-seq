@@ -28,5 +28,5 @@ P7 and a sample index are added during library construction via PCR. The final l
 
 ## Overview and oligo sequences
 <p align="center">
-<img width="50%" height="50%" src="library_oligo.png">
+<img width="80%" height="80%" src="library_oligo.png">
 </p>
