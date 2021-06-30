@@ -18,7 +18,7 @@ module load bcl2fastq2/default # this version works
 ```
 
 ***
-** Guildlines from 10X genomics for sample data analysis** 
+**Guildlines from 10X genomics for sample data analysis** 
 - Download the tiny-bcl tar file.
 - Untar the tiny-bcl tar file in a convenient location. This will create a new tiny-bcl subdirectory.
 - Download the simple CSV layout file: cellranger-atac-tiny-bcl-simple-1.0.0.csv.
