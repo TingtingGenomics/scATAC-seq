@@ -1,12 +1,34 @@
-# <h1 align="center">Tn5 in scATAC-seq</h1>
+# <h1 align="center">10X genomics scATAC-seq Library Construction</h1>
 
-## Function of Tn5 in scATAC-seq
+## Barcoding
+
+[citation:Chromium Next GEM Single Cell ATAC Reagent Kits v1.1, 10X genomics, users guide.](https://assets.ctfassets.net/an68im79xiti/2NEwsG0Yu3RuxvtQiWXZo3/1e939394fa43a4f0bd88d79383833b16/CG000209_Chromium_NextGEM_SingleCell_ATAC_ReagentKits_v1.1_UserGuide_RevE.pdf)
+
+This step synthesizes top single strands.
+
+<p align="center">
+<img width="50%" height="50%" src="library_barcoding.png">
+</p>
+
+***
+**Notes:**
+scATAC-seq sequencing constructs don't have UMI sequence because it's a DNA sequencing methods, not like RNA sequencing that contain many RNA transcripts to differentiate.
+***
+
+## Library Construction
+
+## Sequencing
+
+
+
+
+
 **Assay for Transposase-Accessible Chromatin Sequencing (ATAC-Seq)** employs a hyperactive form of Tn5 transposase to identify regions of open chromatin, which are important for global epigenetic control of gene expression. Tn5 simultaneously cleaves and adds adapters to nucleosome-free regions of DNA, priming them for sequencing.
 <br />
 <br />
 
 <p align="center">
-  <img width="50%" height="50%" src="Tn5.vs.chromatin.png">
+<img width="50%" height="50%" src="Tn5.vs.chromatin.png">
 </p>
 
 [citation:biomedcentral](https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-019-0105-9)
