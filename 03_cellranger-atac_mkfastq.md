@@ -1,4 +1,4 @@
-# <h1 align="center">Cellranger-atac convert bcl file to fastq file</h1>
+# <h1 align="center">Cellranger-atac: convert bcl file to fastq file</h1>
 
 # Interpretation of bcl to fastq algorithm
 [My previous notes](https://github.com/TingtingSsl2/scRNA-seq_LearningPage/blob/main/03_Convert%20bcl%20to%20fastq.md)
